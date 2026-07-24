@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yamaha MT-09 | Dark Side of Japan - Premium Hyper Naked</title>
+  <meta name="description" content="Yamaha MT-09 teknik özellikleri, 890cc CP3 motor ses simülatörü, 3D renk görselleştirici, YRC sürüş modları, aksesuar konfigüratörü ve yakıt hesaplayıcısı.">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo">
+        <img src="images/logo.png" alt="Yamaha MT Logo" style="height: 38px;" onError="this.style.display='none'">
+        <div class="brand-text">
+          YAMAHA <span>MT-09</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#hero" class="active">Genel Bakış</a></li>
+        <li><a href="#visualizer">Renkler & Konfigüratör</a></li>
+        <li><a href="#rev-simulator">CP3 Ses & Devir</a></li>
+        <li><a href="#technology">YRC & Teknolojiler</a></li>
+        <li><a href="#specs">Teknik Özellikler</a></li>
+        <li><a href="#calculator">Hesaplayıcı</a></li>
+        <li><a href="#gallery">Galeri</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#bookingModal" class="btn btn-primary open-booking-modal">
+          <i class="fa-solid fa-motorcycle"></i> Test Sürüşü
+        </a>
+        <button class="mobile-toggle" aria-label="Menüyü Aç">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-bg-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fa-solid fa-bolt"></i> DARK SIDE OF JAPAN | HYPER NAKED FLAGSHIP
+          </div>
+          <h1 class="hero-title">
+            SAF ADRENALİN. <br><span class="gradient-cyan">YAMAHA MT-09</span>
+          </h1>
+          <p class="hero-description">
+            890cc CP3 Crossplane 3-silindirli motoru, yattığı açıyı algılayan 6 eksenli IMU sürüş destek sistemleri ve agresif gövde tasarımı ile Hyper Naked segmentinin kurallarını yeniden yazıyor.
+          </p>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h4>119 PS</h4>
+              <p>Maksimum Güç</p>
+            </div>
+            <div class="stat-item">
+              <h4>93 Nm</h4>
+              <p>Maksimum Tork</p>
+            </div>
+            <div class="stat-item">
+              <h4>193 kg</h4>
+              <p>Islak Ağırlık</p>
+            </div>
+            <div class="stat-item">
+              <h4>890 cc</h4>
+              <p>CP3 Motor</p>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#rev-simulator" class="btn btn-primary">
+              <i class="fa-solid fa-volume-high"></i> CP3 Motoru Çalıştır
+            </a>
+            <a href="#visualizer" class="btn btn-secondary">
+              <i class="fa-solid fa-palette"></i> Renk Özelleştir
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img src="images/hero.jpg" alt="Yamaha MT-09 Hyper Naked" id="heroImage">
+          </div>
+          <div class="hero-float-tag">
+            <div class="icon"><i class="fa-solid fa-gauge-high"></i></div>
+            <div>
+              <strong style="display:block; font-size:0.95rem; color:#fff;">Efsanevi CP3 Crossplane</strong>
+              <small style="color:var(--text-muted);">119.0 PS @ 10.000 RPM & Çift Yönlü Quickshifter</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Color Visualizer & Customizer Section -->
+    <section id="visualizer" class="color-visualizer">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">RENKLER & KONFİGÜRASYON</span>
+          <h2 class="section-title">KARAKTERİNİ <span class="gradient-blue">SEÇ</span></h2>
+          <p class="section-subtitle">Yamaha MT-09 modeline özel sunlanan renk seçeneklerini inceleyin ve orijinal aksesuarlar ekleyerek motorunuzu tasarlayın.</p>
+        </div>
+
+        <div class="glass-panel visualizer-card">
+          <div class="viewer-display">
+            <img src="images/blue.jpg" alt="Yamaha MT-09 Icon Blue" id="variant-viewer-img">
+          </div>
+
+          <div class="color-controls">
+            <h3>Gövde Rengi Seçimi</h3>
+            <div class="color-options">
+              <button class="color-btn active" data-color="blue">
+                <div class="color-btn-left">
+                  <div class="color-dot dot-blue"></div>
+                  <div class="color-info">
+                    <h4>Icon Blue</h4>
+                    <p>İkonik Yamaha yarış mavisi ve mat gümüş detaylar</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+
+              <button class="color-btn" data-color="black">
+                <div class="color-btn-left">
+                  <div class="color-dot dot-black"></div>
+                  <div class="color-info">
+                    <h4>Tech Black</h4>
+                    <p>Gizemli mat siyah gövde ve agresif karanlık kaplama</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+
+              <button class="color-btn" data-color="cyan">
+                <div class="color-btn-left">
+                  <div class="color-dot dot-cyan"></div>
+                  <div class="color-info">
+                    <h4>Midnight Cyan</h4>
+                    <p>Koyu gri şasi üzerinde parlak neon cyan jantlar</p>
+                  </div>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <!-- Accessories Configurator -->
+            <div class="config-options">
+              <h4>Orijinal Aksesuar Seçenekleri</h4>
+              <div class="accessory-list">
+                <label class="acc-item">
+                  <div class="acc-info">
+                    <input type="checkbox" class="acc-checkbox" data-price="28500" data-weight="-1.8">
+                    <span>Akrapovič Titanyum Komple Egzoz</span>
+                  </div>
+                  <span class="acc-price">+28.500 ₺</span>
+                </label>
+
+                <label class="acc-item">
+                  <div class="acc-info">
+                    <input type="checkbox" class="acc-checkbox" data-price="4200" data-weight="0.4">
+                    <span>Spor Ön Rüzgar Camı</span>
+                  </div>
+                  <span class="acc-price">+4.200 ₺</span>
+                </label>
+
+                <label class="acc-item">
+                  <div class="acc-info">
+                    <input type="checkbox" class="acc-checkbox" data-price="3800" data-weight="0.6">
+                    <span>Alüminyum Gövde Koruma Takozları</span>
+                  </div>
+                  <span class="acc-price">+3.800 ₺</span>
+                </label>
+
+                <label class="acc-item">
+                  <div class="acc-info">
+                    <input type="checkbox" class="acc-checkbox" data-price="5500" data-weight="0.2">
+                    <span>Konforlu Sürücü & Yolcu Sele</span>
+                  </div>
+                  <span class="acc-price">+5.500 ₺</span>
+                </label>
+              </div>
+
+              <div class="total-summary">
+                <div>
+                  <span>Tahmini Toplam Fiyat:</span>
+                  <div class="total-price" id="total-config-price">645.000 ₺</div>
+                </div>
+                <div style="text-align: right;">
+                  <span>Toplam Islak Ağırlık:</span>
+                  <div class="total-price" id="total-config-weight" style="color: var(--cyan-neon);">193.0 kg</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CP3 Engine & Live Rev Sound Simulator -->
+    <section id="rev-simulator">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">WEB AUDIO SIMULATOR</span>
+          <h2 class="section-title">CP3 MOTOR <span class="gradient-cyan">SESİ & DEVİR</span></h2>
+          <p class="section-subtitle">Yamaha'nın 890cc 3-silindirli Crossplane motorunun ikonik egzoz sesini canlı olarak simüle edin.</p>
+        </div>
+
+        <div class="glass-panel simulator-card">
+          <div class="sim-display">
+            <div class="tachometer-gauge">
+              <div class="gauge-needle" id="gaugeNeedle"></div>
+              <div class="rpm-number" id="rpmDisplay">1200</div>
+              <div class="rpm-unit">RPM / DEVİR</div>
+            </div>
+
+            <div class="sim-controls">
+              <div class="throttle-slider-wrap">
+                <label for="throttleSlider">Gaz Kolu (Throttle Level)</label>
+                <input type="range" id="throttleSlider" class="throttle-slider" min="1200" max="10500" value="1200" step="50" disabled>
+              </div>
+
+              <div class="sim-buttons">
+                <button class="btn btn-primary" id="startEngineBtn">
+                  <i class="fa-solid fa-power-off"></i> Motoru Çalıştır
+                </button>
+                <button class="btn btn-secondary" id="revBtn" disabled>
+                  <i class="fa-solid fa-fire"></i> Tam Gaz Ver
+                </button>
+                <button class="btn btn-cyan" id="qsBtn" disabled>
+                  <i class="fa-solid fa-bolt"></i> Quickshift Pop
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="engine-info">
+            <h3 style="font-size: 1.8rem; margin-bottom: 20px;">890cc CP3 CROSSPLANE MÜHENDİSLİĞİ</h3>
+            <p style="margin-bottom: 24px; line-height: 1.7;">
+              MT-09'un kalbinde yatan 890cc 3-silindirli CP3 motoru, doğrusal tork üretimi ve benzersiz emiş sesi ile sürücüye anında tepki verir. 120 derecelik krank açısı sayesinde kusursuz bir ivmelenme sunar.
+            </p>
+
+            <div class="engine-features">
+              <div class="feat-box">
+                <i class="fa-solid fa-microchip"></i>
+                <h4>Ride-by-Wire YCC-T</h4>
+                <p>Elektronik gaz kelebeği kontrolü ile milisaniyelik gaz tepkisi.</p>
+              </div>
+
+              <div class="feat-box">
+                <i class="fa-solid fa-volume-high"></i>
+                <h4>Akustik Emiş Kanalları</h4>
+                <p>Yüksek devirlerde kask içine iletilen özel ses mühendisliği.</p>
+              </div>
+
+              <div class="feat-box">
+                <i class="fa-solid fa-arrows-up-down-left-right"></i>
+                <h4>A&S Kaydırmalı Debriyaj</h4>
+                <p>Sert vites düşüşlerinde arka tekerlek kilitlenmesini önler.</p>
+              </div>
+
+              <div class="feat-box">
+                <i class="fa-solid fa-bolt-lightning"></i>
+                <h4>Bi-directional Quickshifter</h4>
+                <p>Debriyajsız vites büyütme ve küçültme imkanı.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- YRC & 6-Axis IMU Electronics Showcase -->
+    <section id="technology">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">ELEKTRONİK SİSTEMLER</span>
+          <h2 class="section-title">6 EKSENLİ IMU & <span class="gradient-blue">YRC SÜRÜŞ MODLARI</span></h2>
+          <p class="section-subtitle">R1 efsanesinden türetilen 6 eksenli IMU sensörü; motosikletin yatma, yalpalama ve savrulma hareketlerini sürekli ölçer.</p>
+        </div>
+
+        <div class="tech-tabs">
+          <button class="tab-btn active" data-tab="yrc-sport">SPORT Modu</button>
+          <button class="tab-btn" data-tab="yrc-street">STREET Modu</button>
+          <button class="tab-btn" data-tab="yrc-rain">RAIN Modu</button>
+          <button class="tab-btn" data-tab="yrc-imu">6-Eksenli IMU Sensör</button>
+        </div>
+
+        <!-- Tab 1: SPORT -->
+        <div class="tab-content active" id="yrc-sport">
+          <div class="glass-panel tech-grid">
+            <div class="tech-card-body">
+              <h3><i class="fa-solid fa-flag-checkered" style="color: var(--cyan-neon); margin-right: 10px;"></i> SPORT SÜRÜŞ MODU</h3>
+              <p>Pist sürüşleri ve agresif viraj performansı için tasarlanmıştır. En keskin gaz yanıtı sunulur, tekerlek kaldırma (LIF) ve çekiş kontrolü (TCS) minimum müdahale seviyesine çekilir.</p>
+              <div class="tech-stats-list">
+                <div class="tech-stat-row">
+                  <label>PWR (Güç Haritası):</label>
+                  <span>SEVİYE 1 (Maksimum Tepki)</span>
+                </div>
+                <div class="tech-stat-row">
+                  <label>TCS (Çekiş Kontrol):</label>
+                  <span>SEVİYE 1 (Minimum Müdahale)</span>
+                </div>
+                <div class="tech-stat-row">
+                  <label>LIF (Ön Teker Kontrol):</label>
+                  <span>SEVİYE 1 (Düşük)</span>
+                </div>
+              </div>
+            </div>
+            <div style="padding: 20px;">
+              <img src="images/engine.jpg" alt="Yamaha MT-09 Sport Mode" style="border-radius: 12px; width: 100%; border: 1px solid var(--border-glow);">
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 2: STREET -->
+        <div class="tab-content" id="yrc-street">
+          <div class="glass-panel tech-grid">
+            <div class="tech-card-body">
+              <h3><i class="fa-solid fa-city" style="color: var(--cyan-neon); margin-right: 10px;"></i> STREET SÜRÜŞ MODU</h3>
+              <p>Günlük şehir içi kullanım ve uzun yolculuklar için ideal denge. Dengeli ivmelenme ve optimize edilmiş güvenlik sistemleri ile konforlu bir sürüş hissi sağlar.</p>
+              <div class="tech-stats-list">
+                <div class="tech-stat-row">
+                  <label>PWR (Güç Haritası):</label>
+                  <span>SEVİYE 2 (Dengeli Doğrusal)</span>
+                </div>
+                <div class="tech-stat-row">
+                  <label>TCS (Çekiş Kontrol):</label>
+                  <span>SEVİYE 2 (Orta Güvenlik)</span>
+                </div>
+                <div class="tech-stat-row">
+                  <label>LIF (Ön Teker Kontrol):</label>
+                  <span>SEVİYE 2 (Dengeli)</span>
+                </div>
+              </div>
+            </div>
+            <div style="padding: 20px;">
+              <img src="images/blue.jpg" alt="Yamaha MT-09 Street Mode" style="border-radius: 12px; width: 100%; border: 1px solid var(--border-glow);">
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 3: RAIN -->
+        <div class="tab-content" id="yrc-rain">
+          <div class="glass-panel tech-grid">
+            <div class="tech-card-body">
+              <h3><i class="fa-solid fa-cloud-showers-heavy" style="color: var(--cyan-neon); margin-right: 10px;"></i> RAIN SÜRÜŞ MODU</h3>
+              <p>Kaygan, ıslak ve zorlu yol şartlarında maksimum güvenlik. Yumuşatılmış gaz haritası ve hassas çekiş kontrolü sayesinde arka tekerlek patinajı tamamen engellenir.</p>
+              <div class="tech-stats-list">
+                <div class="tech-stat-row">
+                  <label>PWR (Güç Haritası):</label>
+                  <span>SEVİYE 3 (Yumuşatılmış Tork)</span>
+                </div>
+                <div class="tech-stat-row">
+                  <label>TCS (Çekiş Kontrol):</label>
+                  <span>SEVİYE 3 (Maksimum Hassasiyet)</span>
+                </div>
+                <div class="tech-stat-row">
+                  <label>BC (Viraj ABS Fren):</label>
+                  <span>SEVİYE 2 (Tam Güvenlik)</span>
+                </div>
+              </div>
+            </div>
+            <div style="padding: 20px;">
+              <img src="images/cyan.jpg" alt="Yamaha MT-09 Rain Mode" style="border-radius: 12px; width: 100%; border: 1px solid var(--border-glow);">
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 4: IMU -->
+        <div class="tab-content" id="yrc-imu">
+          <div class="glass-panel tech-grid">
+            <div class="tech-card-body">
+              <h3><i class="fa-solid fa-brain" style="color: var(--cyan-neon); margin-right: 10px;"></i> 6 EKSENLİ İLERİ İMU TEKNOLOJİSİ</h3>
+              <p>Sensör motorun açısını saniyede 125 kez tarayarak Yürüme Kayma Kontrolü (SCS), Teker Kalkış Önleme (LIF) ve Viraj ABS (BC) sistemlerini milisaniyelik doğrulukla devreye sokar.</p>
+              <div class="tech-stats-list">
+                <div class="tech-stat-row">
+                  <label>SCS (Slide Control):</label>
+                  <span>Virajda Yanal Kaymayı Önler</span>
+                </div>
+                <div class="tech-stat-row">
+                  <label>BC (Brake Control):</label>
+                  <span>Yatma Açısına Duyarlı Frenleme</span>
+                </div>
+                <div class="tech-stat-row">
+                  <label>5 inç TFT Ekran:</label>
+                  <span>MyRide Navigasyon Bağlantısı</span>
+                </div>
+              </div>
+            </div>
+            <div style="padding: 20px;">
+              <img src="images/black.jpg" alt="Yamaha MT-09 IMU Tech" style="border-radius: 12px; width: 100%; border: 1px solid var(--border-glow);">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Detailed Technical Specifications -->
+    <section id="specs">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">DETAYLI SPESİFİKASYONLAR</span>
+          <h2 class="section-title">TEKNİK <span class="gradient-cyan">ÖZELLİKLER</span></h2>
+          <p class="section-subtitle">Yamaha MT-09 modeline ait tüm resmi motor, şasi, boyut ve elektronik donanım verileri.</p>
+        </div>
+
+        <div class="specs-tabs">
+          <button class="spec-category-btn active" data-category="all">Tüm Özellikler</button>
+          <button class="spec-category-btn" data-category="engine">Motor & Şanzıman</button>
+          <button class="spec-category-btn" data-category="chassis">Şasi & Frenler</button>
+          <button class="spec-category-btn" data-category="dimensions">Boyutlar & Depo</button>
+        </div>
+
+        <div class="glass-panel specs-table-container">
+          <table class="specs-table">
+            <thead>
+              <tr>
+                <th>Parametre</th>
+                <th>Teknik Değer / Detay</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Motor -->
+              <tr class="spec-row" data-category="engine">
+                <td>Motor Tipi</td>
+                <td>890 cc, 3-silindirli (CP3 - Crossplane Concept), 4-zamanlı, sıvı soğutmalı, DOHC, 4-subap</td>
+              </tr>
+              <tr class="spec-row" data-category="engine">
+                <td>Çap x Strok</td>
+                <td>78.0 mm x 62.1 mm</td>
+              </tr>
+              <tr class="spec-row" data-category="engine">
+                <td>Sıkıştırma Oranı</td>
+                <td>11.5 : 1</td>
+              </tr>
+              <tr class="spec-row" data-category="engine">
+                <td>Maksimum Güç</td>
+                <td>87.5 kW (119.0 PS) @ 10.000 dev/dk</td>
+              </tr>
+              <tr class="spec-row" data-category="engine">
+                <td>Maksimum Tork</td>
+                <td>93.0 Nm (9.5 kg-m) @ 7.000 dev/dk</td>
+              </tr>
+              <tr class="spec-row" data-category="engine">
+                <td>Yağlama Sistemi</td>
+                <td>Islak karter</td>
+              </tr>
+              <tr class="spec-row" data-category="engine">
+                <td>Debriyaj Tipi</td>
+                <td>Islak, Çoklu disk (A&S - Kaydırmalı Debriyaj)</td>
+              </tr>
+              <tr class="spec-row" data-category="engine">
+                <td>Şanzıman</td>
+                <td>6 vites, Çift Yönlü Quickshifter (Bi-directional)</td>
+              </tr>
+              <tr class="spec-row" data-category="engine">
+                <td>Yakıt Tüketimi</td>
+                <td>5.0 L / 100 km</td>
+              </tr>
+
+              <!-- Şasi -->
+              <tr class="spec-row" data-category="chassis">
+                <td>Şasi Yapısı</td>
+                <td>Alüminyum Döküm Deltabox Şasi</td>
+              </tr>
+              <tr class="spec-row" data-category="chassis">
+                <td>Ön Süspansiyon</td>
+                <td>41 mm KYB Ters Teleskobik Çatal (Tam Ayarlanabilir), 130 mm strok</td>
+              </tr>
+              <tr class="spec-row" data-category="chassis">
+                <td>Arka Süspansiyon</td>
+                <td>Salınım kolu (Link tipi süspansiyon, KYB Ayarlanabilir Monoşok), 117 mm strok</td>
+              </tr>
+              <tr class="spec-row" data-category="chassis">
+                <td>Ön Fren</td>
+                <td>Brembo Radyal Ana Silindirli İki adet 298 mm disk (Viraj ABS destekli)</td>
+              </tr>
+              <tr class="spec-row" data-category="chassis">
+                <td>Arka Fren</td>
+                <td>Tek disk, 245 mm</td>
+              </tr>
+              <tr class="spec-row" data-category="chassis">
+                <td>Ön Lastik</td>
+                <td>120/70 ZR17M/C (58W) (Bridgestone Battlax Hypersport S23 Tubeless)</td>
+              </tr>
+              <tr class="spec-row" data-category="chassis">
+                <td>Arka Lastik</td>
+                <td>180/55 ZR17M/C (73W) Tubeless</td>
+              </tr>
+
+              <!-- Boyutlar -->
+              <tr class="spec-row" data-category="dimensions">
+                <td>Toplam Uzunluk x Genişlik x Yükseklik</td>
+                <td>2.090 mm x 820 mm x 1.145 mm</td>
+              </tr>
+              <tr class="spec-row" data-category="dimensions">
+                <td>Sele Yüksekliği</td>
+                <td>825 mm</td>
+              </tr>
+              <tr class="spec-row" data-category="dimensions">
+                <td>Aks Mesafesi</td>
+                <td>1.430 mm</td>
+              </tr>
+              <tr class="spec-row" data-category="dimensions">
+                <td>Minimum Yerden Yükseklik</td>
+                <td>140 mm</td>
+              </tr>
+              <tr class="spec-row" data-category="dimensions">
+                <td>Islak Ağırlık (Tüm sıvılar dahil)</td>
+                <td>193 kg</td>
+              </tr>
+              <tr class="spec-row" data-category="dimensions">
+                <td>Yakıt Deposu Kapasitesi</td>
+                <td>14.0 Litre</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fuel Cost & Range Calculator -->
+    <section id="calculator">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">MALİYET & SÜRÜŞ HESAPLAYICI</span>
+          <h2 class="section-title">YAKIT & MESAFE <span class="gradient-blue">HESAPLAYICI</span></h2>
+          <p class="section-subtitle">Yıllık sürüş mesafenize göre Yamaha MT-09 yakıt tüketimini ve tahmini maliyetini hesaplayın.</p>
+        </div>
+
+        <div class="glass-panel calc-grid">
+          <div class="calc-form">
+            <div class="calc-input-group">
+              <label>
+                <span>Yıllık Hedef Sürüş Mesafesi</span>
+                <strong id="val-distance">10.000 km</strong>
+              </label>
+              <input type="range" id="calc-distance" class="throttle-slider" min="1000" max="40000" value="10000" step="500">
+            </div>
+
+            <div class="calc-input-group">
+              <label>
+                <span>Benzin Litre Fiyatı (TL)</span>
+                <strong id="val-fuel-price">45.00 ₺</strong>
+              </label>
+              <input type="range" id="calc-fuel-price" class="throttle-slider" min="30" max="70" value="45" step="0.5">
+            </div>
+
+            <div style="background: rgba(0,240,255,0.05); padding: 16px; border-radius: 8px; border: 1px solid var(--border-glow);">
+              <i class="fa-solid fa-circle-info" style="color: var(--cyan-neon); margin-right: 8px;"></i>
+              <small style="color: var(--text-muted);">Hesaplama, MT-09'un 5.0 L / 100 km fabrika ortalama tüketim verileri esas alınarak yapılmaktadır.</small>
+            </div>
+          </div>
+
+          <div class="calc-result-card glass-panel">
+            <div class="result-label">Tahmini Yıllık Yakıt Gideri</div>
+            <div class="result-val" id="res-fuel-cost">22.500 ₺</div>
+
+            <div style="display: flex; justify-content: space-around; margin-top: 24px; border-top: 1px solid var(--border-color); padding-top: 20px;">
+              <div>
+                <small style="color: var(--text-dim); display: block;">Tüketilen Yakıt</small>
+                <strong id="res-fuel-liters" style="font-size: 1.3rem; color: #fff;">500 Litre</strong>
+              </div>
+              <div>
+                <small style="color: var(--text-dim); display: block;">Depo Sayısı (14L)</small>
+                <strong id="res-tank-count" style="font-size: 1.3rem; color: var(--cyan-neon);">35.7 Depo</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">GÖRSEL GALERİ</span>
+          <h2 class="section-title">DARK SIDE <span class="gradient-cyan">GALERİSİ</span></h2>
+          <p class="section-subtitle">Yamaha MT-09 detay fotoğrafları ve yüksek çözünürlüklü görseller.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/hero.jpg" alt="Yamaha MT-09 Ön Görünüm">
+            <div class="gallery-overlay">
+              <h4>Yamaha MT-09 Aggressive Headlight</h4>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="images/blue.jpg" alt="Yamaha MT-09 Icon Blue">
+            <div class="gallery-overlay">
+              <h4>Icon Blue Finish</h4>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="images/black.jpg" alt="Yamaha MT-09 Tech Black">
+            <div class="gallery-overlay">
+              <h4>Tech Black Stealth Mode</h4>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="images/cyan.jpg" alt="Yamaha MT-09 Midnight Cyan">
+            <div class="gallery-overlay">
+              <h4>Midnight Cyan SpinForged Wheels</h4>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="images/engine.jpg" alt="Yamaha MT-09 CP3 Engine">
+            <div class="gallery-overlay">
+              <h4>890cc CP3 Engine Details</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Test Ride Booking Modal -->
+  <div class="modal" id="bookingModal">
+    <div class="modal-content glass-panel">
+      <button class="modal-close" id="closeBookingModal">&times;</button>
+      <h3 style="font-size: 1.6rem; color: var(--cyan-neon); margin-bottom: 8px;">TEST SÜRÜŞÜ RANDEVUSU</h3>
+      <p style="margin-bottom: 24px; font-size: 0.9rem;">Yamaha MT-09'u yakından deneyimlemek için aşağıdaki formu doldurun.</p>
+
+      <form id="bookingForm">
+        <div class="form-group">
+          <label for="book-name">Adınız Soyadınız</label>
+          <input type="text" id="book-name" class="form-control" placeholder="Örn: Ahmet Yılmaz" required>
+        </div>
+
+        <div class="form-group">
+          <label for="book-phone">Telefon Numaranız</label>
+          <input type="tel" id="book-phone" class="form-control" placeholder="05XX XXX XX XX" required>
+        </div>
+
+        <div class="form-group">
+          <label for="book-city">Tercih Edilen Şehir & Bayi</label>
+          <select id="book-city" class="form-control" required>
+            <option value="">Bayi Seçiniz</option>
+            <option value="istanbul-karafirin">İstanbul - Yamaha Premium Plaza</option>
+            <option value="ankara-center">Ankara - Yamaha Motor Center</option>
+            <option value="izmir-bayrakli">İzmir - Yamaha Ege Plaza</option>
+            <option value="bursa-nilufer">Bursa - Yamaha Nilüfer</option>
+            <option value="antalya-center">Antalya - Yamaha Akdeniz</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="book-license">Ehliyet Sınıfınız</label>
+          <select id="book-license" class="form-control" required>
+            <option value="A">A Sınıfı (Tam Yetkili)</option>
+            <option value="A2">A2 Sınıfı</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 10px;">
+          <i class="fa-solid fa-paper-plane"></i> Randevu Talebi Gönder
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>YAMAHA MT-09 | DARK SIDE OF JAPAN</h3>
+          <p>890cc CP3 motor teknolojisi, 6 eksenli IMU sürüş destek donanımları ve saf hyper naked agresifliği ile sınırları zorlayın.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Hızlı Bağlantılar</h4>
+          <ul>
+            <li><a href="#hero">Genel Bakış</a></li>
+            <li><a href="#visualizer">Renkler & Konfigüratör</a></li>
+            <li><a href="#rev-simulator">CP3 Ses Simülatörü</a></li>
+            <li><a href="#specs">Teknik Özellikler</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Sosyal Medya</h4>
+          <div style="display: flex; gap: 14px; margin-top: 10px; font-size: 1.3rem;">
+            <a href="#" style="color: var(--cyan-neon);"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" style="color: var(--cyan-neon);"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" style="color: var(--cyan-neon);"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" style="color: var(--cyan-neon);"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Yamaha MT-09 Tanıtım Portalı. Tüm hakları saklıdır. Dark Side of Japan markası Yamaha Motor Corporation'a aittir.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript Scripts -->
+  <script src="js/audio-synth.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
